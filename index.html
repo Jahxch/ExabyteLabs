@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ExabyteLabs - Soporte técnico, reparación de dispositivos y desarrollo web.">
+  <title>ExabyteLabs | Tecnología que sí responde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span><i class="fa-solid fa-circle-check"></i> Atención personalizada</span>
+      <a href="https://wa.me/51917158224" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> 917 158 224
+      </a>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="ExabyteLabs inicio">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>Exabyte<span>Labs</span></span>
+      </a>
+
+      <nav class="nav" id="main-nav">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#como-funciona" class="nav-link">Cómo funciona</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <button class="cart-button" id="cart-button" aria-label="Abrir solicitud de servicios">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span id="cart-badge">0</span>
+      </button>
+
+      <button class="menu-button" id="menu-button" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div><div class="hero-grid"></div><div class="hero-scanline"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> SOLUCIONES TECNOLÓGICAS</div>
+          <h1>Tu tecnología.<br><strong>En buenas manos.</strong></h1>
+          <p>Reparamos tus equipos, optimizamos su rendimiento y creamos páginas web modernas para hacer crecer tu proyecto.</p>
+          <div class="hero-actions">
+            <a href="#servicios" class="btn btn-primary">Ver servicios <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="https://wa.me/51917158224" target="_blank" rel="noopener" class="btn btn-ghost">
+              <i class="fa-brands fa-whatsapp"></i> Hablar por WhatsApp
+            </a>
+          </div>
+          <div class="trust-row">
+            <div><i class="fa-solid fa-shield-halved"></i><span>Servicio confiable</span></div>
+            <div><i class="fa-solid fa-screwdriver-wrench"></i><span>Atención técnica</span></div>
+            <div><i class="fa-solid fa-bolt"></i><span>Respuesta rápida</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow"></div>
+          <div class="tech-card main-tech-card shine-card">
+            <div class="tech-card-top">
+              <span class="status-dot"></span>
+              <span>EXABYTELABS SYSTEM</span>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="code-window">
+              <span class="code-muted">&lt;solution</span>
+              <span class="code-line"><b>device</b>=<em>"fixed"</em></span>
+              <span class="code-line"><b>performance</b>=<em>"optimized"</em></span>
+              <span class="code-line"><b>website</b>=<em>"modern"</em></span>
+              <span class="code-muted">/&gt;</span>
+            </div>
+            <div class="tech-card-footer">
+              <span><i class="fa-solid fa-circle-check"></i> Ready to help</span>
+              <span>2026</span>
+            </div>
+          </div>
+          <div class="floating-card floating-one">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <div><strong>Reparación</strong><small>Celulares</small></div>
+          </div>
+          <div class="floating-card floating-two">
+            <i class="fa-solid fa-code"></i>
+            <div><strong>Desarrollo</strong><small>Web a medida</small></div>
+          </div>
+        </div>
+      </div>
+      <a href="#servicios" class="scroll-hint"><span></span> Explora nuestros servicios</a>
+    </section>
+
+    <section class="services section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">LO QUE HACEMOS</div>
+            <h2>Soluciones para tu <span>tecnología</span></h2>
+          </div>
+          <p>Elige una categoría y agrega los servicios que necesitas a tu solicitud.</p>
+        </div>
+
+        <div class="category-tabs" role="tablist">
+          <button class="category-tab active" data-tab="moviles"><i class="fa-solid fa-mobile-screen-button"></i><span>Móviles</span></button>
+          <button class="category-tab" data-tab="pc"><i class="fa-solid fa-laptop"></i><span>Laptops / PC</span></button>
+          <button class="category-tab" data-tab="impresoras"><i class="fa-solid fa-print"></i><span>Impresoras</span></button>
+          <button class="category-tab" data-tab="web"><i class="fa-solid fa-code"></i><span>Desarrollo Web</span></button>
+        </div>
+
+        <div class="service-grid active" id="moviles">
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="card-number">01</div>
+            <h3>Cambio de pantalla</h3>
+            <p>Reemplazo de pantalla y display con instalación profesional.</p>
+            <button class="add-service" data-service="Cambio de pantalla de celular">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card featured">
+            <div class="popular">MÁS SOLICITADO</div>
+            <div class="card-icon"><i class="fa-solid fa-battery-full"></i></div>
+            <div class="card-number">02</div>
+            <h3>Cambio de batería</h3>
+            <p>Recupera la autonomía de tu celular con una batería nueva.</p>
+            <button class="add-service" data-service="Cambio de batería de celular">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <div class="card-number">03</div>
+            <h3>Cambio de marco</h3>
+            <p>Renueva el chasis y mejora el aspecto de tu dispositivo.</p>
+            <button class="add-service" data-service="Cambio de marco de celular">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+            <div class="card-number">04</div>
+            <h3>Reparación general</h3>
+            <p>Problemas de carga, cámaras, botones, software y más.</p>
+            <button class="add-service" data-service="Reparación general de celular">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+        </div>
+
+        <div class="service-grid" id="pc">
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-fan"></i></div>
+            <div class="card-number">01</div>
+            <h3>Limpieza y mantenimiento</h3>
+            <p>Limpieza interna, revisión y cambio de pasta térmica.</p>
+            <button class="add-service" data-service="Mantenimiento interno de Laptop/PC">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card featured">
+            <div class="popular">RENDIMIENTO</div>
+            <div class="card-icon"><i class="fa-solid fa-memory"></i></div>
+            <div class="card-number">02</div>
+            <h3>Actualización de componentes</h3>
+            <p>RAM, SSD, teclados, pantallas y otros repuestos.</p>
+            <button class="add-service" data-service="Cambio de repuestos Laptop/PC">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-desktop"></i></div>
+            <div class="card-number">03</div>
+            <h3>Optimización de PC</h3>
+            <p>Diagnóstico y ajustes para mejorar velocidad y estabilidad.</p>
+            <button class="add-service" data-service="Optimización de PC/Laptop">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+        </div>
+
+        <div class="service-grid" id="impresoras">
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-print"></i></div>
+            <div class="card-number">01</div>
+            <h3>Reparación general</h3>
+            <p>Atascos, errores, fallas de impresión y mantenimiento preventivo.</p>
+            <button class="add-service" data-service="Reparación general de impresora">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-droplet"></i></div>
+            <div class="card-number">02</div>
+            <h3>Cabezales</h3>
+            <p>Limpieza profunda o reemplazo de cabezales de impresión.</p>
+            <button class="add-service" data-service="Cambio/Limpieza de cabezales de impresora">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+        </div>
+
+        <div class="service-grid" id="web">
+          <article class="service-card featured web-card">
+            <div class="popular">DIGITAL</div>
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="card-number">01</div>
+            <h3>Diseño web personalizado</h3>
+            <p>Sitios modernos, rápidos, adaptables a celulares y hechos según tu negocio.</p>
+            <button class="add-service" data-service="Desarrollo de página web personalizada">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+          <article class="service-card">
+            <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
+            <div class="card-number">02</div>
+            <h3>Landing page</h3>
+            <p>Una página enfocada en presentar tu negocio, servicio o producto.</p>
+            <button class="add-service" data-service="Diseño de Landing Page">Agregar <i class="fa-solid fa-plus"></i></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="como-funciona">
+      <div class="container">
+        <div class="section-heading centered">
+          <div>
+            <div class="eyebrow">SIMPLE Y DIRECTO</div>
+            <h2>¿Cómo <span>funciona?</span></h2>
+          </div>
+          <p>Cuéntanos qué necesitas y nosotros nos encargamos del resto.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-item"><span>01</span><i class="fa-solid fa-list-check"></i><h3>Elige</h3><p>Selecciona los servicios que necesitas.</p></div>
+          <div class="process-line"></div>
+          <div class="process-item"><span>02</span><i class="fa-brands fa-whatsapp"></i><h3>Escríbenos</h3><p>Envía tu solicitud directamente por WhatsApp.</p></div>
+          <div class="process-line"></div>
+          <div class="process-item"><span>03</span><i class="fa-solid fa-comments"></i><h3>Cotizamos</h3><p>Revisamos tu caso y coordinamos contigo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contacto">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <div class="eyebrow">¿TIENES UN PROBLEMA?</div>
+            <h2>Hablemos de tu <span>proyecto.</span></h2>
+            <p>Desde reparar tu celular hasta crear tu próxima página web.</p>
+          </div>
+          <a href="https://wa.me/51917158224" target="_blank" rel="noopener" class="btn btn-primary">
+            <i class="fa-brands fa-whatsapp"></i> Contactar ahora
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="brand"><span class="brand-mark">&lt;/&gt;</span><span>Exabyte<span>Labs</span></span></a>
+        <p>Tecnología, reparación y desarrollo web.</p>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <a href="#servicios">Móviles</a>
+        <a href="#servicios">Laptops / PC</a>
+        <a href="#servicios">Impresoras</a>
+        <a href="#servicios">Desarrollo Web</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href="https://wa.me/51917158224" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> 917 158 224</a>
+        <span>Lun - Sáb · 9:00 AM - 7:00 PM</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 ExabyteLabs. Todos los derechos reservados.</span>
+      <span>Hecho con tecnología y café.</span>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="cart-modal" aria-hidden="true">
+    <div class="cart-modal">
+      <button class="close-modal" id="close-modal" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-heading">
+        <div class="modal-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+        <div><div class="eyebrow">TU SOLICITUD</div><h2>Servicios seleccionados</h2></div>
+      </div>
+
+      <div class="cart-list" id="cart-items"></div>
+
+      <div class="cart-empty" id="cart-empty">
+        <i class="fa-regular fa-folder-open"></i>
+        <strong>Aún no has seleccionado servicios</strong>
+        <span>Agrega uno desde el catálogo para comenzar.</span>
+      </div>
+
+      <div class="form-grid">
+        <label>
+          <span>Tu nombre *</span>
+          <input type="text" id="client-name" placeholder="Ej. Juan Pérez">
+        </label>
+        <label>
+          <span>Modelo / detalles</span>
+          <textarea id="client-notes" rows="3" placeholder="Ej. Mi laptop es Lenovo LOQ..."></textarea>
+        </label>
+      </div>
+
+      <button class="whatsapp-submit" id="whatsapp-submit">
+        <i class="fa-brands fa-whatsapp"></i> Solicitar cotización
+      </button>
+      <p class="modal-note"><i class="fa-solid fa-lock"></i> Tu información se utilizará únicamente para atender tu solicitud.</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"><i class="fa-solid fa-check"></i><span>Servicio agregado</span></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
